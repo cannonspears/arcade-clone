@@ -1,0 +1,59 @@
+body {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #4f8182;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#instructions {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#score-container {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#score-container p {
+  margin: 2px;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  margin: auto;
+  width: 515px;
+  height: 630px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(222, 243, 246, 1);
+  border: 7.5px solid #e3b57e;
+  z-index: 2;
+  cursor: pointer;
+}
+#overlayIntro {
+  font-size: 35px;
+  position: relative;
+  top: 20px;
+}
+#overlayStats {
+  font-size: 18px;
+  position: relative;
+  bottom: 40px;
+}
+#overlayText {
+  position: relative;
+  margin: 20px;
+  text-align: justify;
+  bottom: 100px;
+}
+#restart {
+  font-weight: bold;
+  position: relative;
+  bottom: 75px;
+}

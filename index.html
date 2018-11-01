@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arcade Clone | Cannon Spears</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+
+    <div id="overlay" onclick="restartGame()">
+        <h1 id="overlayIntro"></h1>
+
+        <h2 id="overlayStats">You saved <span id="overlaySaved">0</span> Frogboys and killed <span id="overlayKilled">0</span>
+            Frogboys.</h2>
+
+        <p id="overlayText"></p>
+
+        <p id="restart">Click anywhere to try again.</p>
+    </div>
+
+    <div id="instructions">
+        Help the 20 Frogboys to land; avoid the hungry waterbugs
+    </div>
+
+    <div id="score-container">
+        <p>Frogboys saved: <span id="score-success">0</span></p>
+        <p>Frogboys eaten: <span id="score-miss">0</span></p>
+    </div>
+</body>
+
+</html>
